@@ -33,6 +33,7 @@ return new class extends Migration
                 $table->dropForeign(['project_id']);
             }
         });
+
         // drop the table
         Schema::dropIfExists('tasks');
     }
